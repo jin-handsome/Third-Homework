@@ -1,0 +1,199 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+body{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.logo{
+	float:left;
+	width: 120px;
+}
+
+.nav{
+	position: fixed;
+	width: 100%;
+	background-color: rgb(30, 30, 30);
+	height: 60px;
+	box-shadow: 0 2px 2px #666;
+	z-index: 9999;
+}
+
+.btli{
+	float:right;
+	width: 100px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.droplist{
+	background: #333;
+	box-shadow: 0 2px 2px #666;
+	border-radius: 5px;
+	display: none;
+	overflow: hidden;
+}
+
+.droplist li{
+	border-top: 1px solid #666;
+}
+
+.btli:hover .droplist{
+	display: block;
+}
+
+.navlist a{
+	color: #fff;
+	display: block;
+}
+.navlist a:hover{
+	background: #666;
+}
+
+.swiper{
+	position: fixed;
+	width: 800px;
+	height: 400px;
+	top: 75px;
+}
+
+.text1{
+	height: 230px;
+	width: 400px;
+	background-color: rgba(32, 178, 170, 0.8);
+	position: absolute;
+	top: 490px;
+	right: 20%;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px #2F4F4F;
+}
+
+.text2{
+	height: 230px;
+	width: 400px;
+	background-color: rgba(32, 178, 170, 0.8);
+	position: absolute;
+	top: 490px;
+	left: 20%;
+	border-radius: 8px;
+	box-shadow: 0 2px 2px #2F4F4F;
+}
+
+.text3{
+	position: fixed;
+	top: 16.5%;
+	left: 20px;
+	width: 160px;
+	height: 523px;
+	background-color: rgba(244, 164, 96, 0.8);
+	box-shadow: 0 2px 2px #FFDAB9;
+	border-radius: 10px;
+}
+
+.footer{
+	position: absolute;
+	top: 725px;
+	height: 65px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	background-color: rgb(30, 30, 30);
+	box-shadow: 0 0 2px 2px #666;
+}
+
+.zly{
+	position: fixed;
+	height: 35px;
+	width: 75px;
+	background-color: rgba(0, 0, 0, 0.6);
+	top: 15%;
+	left: 300px;
+	color: #fff;
+	border-radius: 10px;
+}
+.zly_text{
+	position: fixed;
+	top: 20%;
+	left: 300px;
+	height: 250px;
+	width: 500px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 20px;
+}
+.zly_pic{
+	position: fixed;
+	top: 15%;
+	height: 270px;
+	width: 405px;
+	right: 80px;
+	z-index: -1;
+}
+
+.xwmr{
+	position: fixed;
+	height: 35px;
+	width: 100px;
+	background-color: rgba(0, 0, 0, 0.6);
+	top: 54%;
+	left: 300px;
+	color: #fff;
+	border-radius: 10px;
+}
+.xwmr_text{
+	position: fixed;
+	top: 59%;
+	left: 300px;
+	height: 210px;
+	width: 500px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
+}
+.xwmr_pic{
+	position: fixed;
+	top: 53%;
+	height: 270px;
+	width: 405px;
+	right: 80px;
+}
+
+.xiao_title{
+	position: absolute;
+	height: 43px;
+	width: 300px;
+	top: 100px;
+	background-color: rgba(0, 0, 0, 0.6);
+	left: 40%;
+	color: #fff;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.xiao_container{
+	height: 5600px;
+	width: 1010px;
+	position: absolute;
+	top: 3000px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	/* 内部使用网格布局 对子元素生效 */
+	display: grid;
+	/* 设置行和列数 */
+	grid-template-rows: repeat(11,500px);
+	grid-template-columns: repeat(2,500px); 
+	gap: 10px;
+}
+
+.xiao_item{
+	border-radius: 10px;
+	color: #fff;
+	font-size: 18px;
+}
